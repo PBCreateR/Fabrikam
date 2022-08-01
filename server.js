@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 
 app.get('/hello', function (req, res) {
   console.log("CAlling rest api");
-  var person={firstName:'Ravi',lastName:'Tambade',age:47};
+  var person={firstName:'Pratik',lastName:'Balkunde',age:23};
   res.send(person);
 });
 
